@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct GreetingstView: View {
+struct GreetingsView: View {
     var body: some View {
         ZStack {
             BackgroundView()
@@ -22,10 +22,10 @@ struct GreetingstView: View {
 
 struct GreetingstView_Previews: PreviewProvider {
     static var previews: some View {
-        GreetingstView()
+        GreetingsView()
         //  change preview for dark mode
 //            .preferredColorScheme(.dark)
-        GreetingstView()
+        GreetingsView()
         //  change preview for light mode
             .preferredColorScheme(.light)
     }

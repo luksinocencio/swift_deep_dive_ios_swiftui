@@ -1,4 +1,5 @@
 import SwiftUI
+import TipKit
 
 struct VerticalTitleView: View {
     @State var isRotated: Bool = false
@@ -17,9 +18,12 @@ struct TitleView: View {
     @State var isRotated: Bool = false
     @State var captionIndex: Int = 0
     
+    private var greetingsTip = GreetingsTip()
+    
     var body: some View {
         HStack {
             GreetingsTextView(captionIndex: $captionIndex)
+                .popoverTip(greetingsTip)
             
             Spacer()
             

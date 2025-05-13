@@ -8,23 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E82621882A5C50E6007BAEAD /* DataItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82621872A5C50E6007BAEAD /* DataItemModel.swift */; };
-		E853B7652926BC8C001B26F2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E853B7672926BC8C001B26F2 /* Localizable.strings */; };
 		E88FBD632A5B48C4005452ED /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88FBD622A5B48C4005452ED /* BackgroundView.swift */; };
 		E88FBD652A5B4998005452ED /* MeesagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88FBD642A5B4998005452ED /* MeesagesView.swift */; };
 		E88FBD672A5B4A17005452ED /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88FBD662A5B4A17005452ED /* TextView.swift */; };
 		E88FBD692A5B4AED005452ED /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88FBD682A5B4AED005452ED /* TitleView.swift */; };
 		E88FBD702A5B5568005452ED /* LandscapeGreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88FBD6F2A5B5568005452ED /* LandscapeGreetingsView.swift */; };
 		E8C485DF290CC908005DFC2D /* GreetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C485DE290CC908005DFC2D /* GreetingsApp.swift */; };
-		E8C485E1290CC908005DFC2D /* GreetingstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C485E0290CC908005DFC2D /* GreetingstView.swift */; };
+		E8C485E1290CC908005DFC2D /* GreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C485E0290CC908005DFC2D /* GreetingsView.swift */; };
 		E8C485E3290CC909005DFC2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C485E2290CC909005DFC2D /* Assets.xcassets */; };
 		E8C485E6290CC909005DFC2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C485E5290CC909005DFC2D /* Preview Assets.xcassets */; };
 		E8C715062A5CD1F60075B5EE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C715052A5CD1F60075B5EE /* MainView.swift */; };
+		E8C719982DD2B30E00564D8E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E8C719972DD2B30E00564D8E /* Localizable.xcstrings */; };
+		E8C7199A2DD2B65E00564D8E /* LanguageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C719992DD2B65E00564D8E /* LanguageOptionsView.swift */; };
+		E8C7199C2DD2B70600564D8E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C7199B2DD2B70600564D8E /* Constants.swift */; };
+		E8F2B05D2DD2C4AA008A1757 /* GreetingsTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2B05C2DD2C4AA008A1757 /* GreetingsTip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E82621872A5C50E6007BAEAD /* DataItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItemModel.swift; sourceTree = "<group>"; };
-		E853B7662926BC8C001B26F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		E853B7682926BDC8001B26F2 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E88FBD622A5B48C4005452ED /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		E88FBD642A5B4998005452ED /* MeesagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeesagesView.swift; sourceTree = "<group>"; };
 		E88FBD662A5B4A17005452ED /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
@@ -32,10 +33,14 @@
 		E88FBD6F2A5B5568005452ED /* LandscapeGreetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeGreetingsView.swift; sourceTree = "<group>"; };
 		E8C485DB290CC908005DFC2D /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C485DE290CC908005DFC2D /* GreetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsApp.swift; sourceTree = "<group>"; };
-		E8C485E0290CC908005DFC2D /* GreetingstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingstView.swift; sourceTree = "<group>"; };
+		E8C485E0290CC908005DFC2D /* GreetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsView.swift; sourceTree = "<group>"; };
 		E8C485E2290CC909005DFC2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8C485E5290CC909005DFC2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E8C715052A5CD1F60075B5EE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E8C719972DD2B30E00564D8E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		E8C719992DD2B65E00564D8E /* LanguageOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOptionsView.swift; sourceTree = "<group>"; };
+		E8C7199B2DD2B70600564D8E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E8F2B05C2DD2C4AA008A1757 /* GreetingsTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsTip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +61,11 @@
 				E88FBD622A5B48C4005452ED /* BackgroundView.swift */,
 				E88FBD642A5B4998005452ED /* MeesagesView.swift */,
 				E88FBD682A5B4AED005452ED /* TitleView.swift */,
-				E8C485E0290CC908005DFC2D /* GreetingstView.swift */,
+				E8C485E0290CC908005DFC2D /* GreetingsView.swift */,
 				E88FBD6F2A5B5568005452ED /* LandscapeGreetingsView.swift */,
 				E8C715052A5CD1F60075B5EE /* MainView.swift */,
+				E8C719992DD2B65E00564D8E /* LanguageOptionsView.swift */,
+				E8C7199B2DD2B70600564D8E /* Constants.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -90,12 +97,13 @@
 		E8C485DD290CC908005DFC2D /* Greetings */ = {
 			isa = PBXGroup;
 			children = (
+				E8F2B05B2DD2C49B008A1757 /* GreetingsTip */,
 				E88FBD6D2A5B4DC5005452ED /* Models */,
 				E88FBD6C2A5B4DB6005452ED /* Views */,
 				E8C485DE290CC908005DFC2D /* GreetingsApp.swift */,
 				E8C485E2290CC909005DFC2D /* Assets.xcassets */,
 				E8C485E4290CC909005DFC2D /* Preview Content */,
-				E853B7672926BC8C001B26F2 /* Localizable.strings */,
+				E8C719972DD2B30E00564D8E /* Localizable.xcstrings */,
 			);
 			path = Greetings;
 			sourceTree = "<group>";
@@ -106,6 +114,14 @@
 				E8C485E5290CC909005DFC2D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E8F2B05B2DD2C49B008A1757 /* GreetingsTip */ = {
+			isa = PBXGroup;
+			children = (
+				E8F2B05C2DD2C4AA008A1757 /* GreetingsTip.swift */,
+			);
+			path = GreetingsTip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +152,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					E8C485DA290CC908005DFC2D = {
 						CreatedOnToolsVersion = 14.1;
@@ -168,7 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8C485E6290CC909005DFC2D /* Preview Assets.xcassets in Resources */,
-				E853B7652926BC8C001B26F2 /* Localizable.strings in Resources */,
+				E8C719982DD2B30E00564D8E /* Localizable.xcstrings in Resources */,
 				E8C485E3290CC909005DFC2D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,9 +197,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E88FBD632A5B48C4005452ED /* BackgroundView.swift in Sources */,
+				E8C7199C2DD2B70600564D8E /* Constants.swift in Sources */,
 				E8C715062A5CD1F60075B5EE /* MainView.swift in Sources */,
-				E8C485E1290CC908005DFC2D /* GreetingstView.swift in Sources */,
+				E8C485E1290CC908005DFC2D /* GreetingsView.swift in Sources */,
+				E8C7199A2DD2B65E00564D8E /* LanguageOptionsView.swift in Sources */,
 				E88FBD652A5B4998005452ED /* MeesagesView.swift in Sources */,
+				E8F2B05D2DD2C4AA008A1757 /* GreetingsTip.swift in Sources */,
 				E8C485DF290CC908005DFC2D /* GreetingsApp.swift in Sources */,
 				E88FBD702A5B5568005452ED /* LandscapeGreetingsView.swift in Sources */,
 				E82621882A5C50E6007BAEAD /* DataItemModel.swift in Sources */,
@@ -194,23 +213,12 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		E853B7672926BC8C001B26F2 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E853B7662926BC8C001B26F2 /* en */,
-				E853B7682926BDC8001B26F2 /* pt-BR */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		E8C485E7290CC909005DFC2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -243,6 +251,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -263,6 +272,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -271,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -303,6 +314,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -316,6 +328,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -337,6 +350,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,6 +384,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
